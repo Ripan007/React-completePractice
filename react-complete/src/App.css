@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  text-transform:uppercase;
+  padding: 10px;
+
+}
+
+
+hr{
+margin: auto;
+  width: 50%;
+  background-color: orange;
+  border-radius: 10px;
+}
