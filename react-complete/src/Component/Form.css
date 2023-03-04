@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,button{
+  padding: 10px;
+  border-radius:4px;
+  border:1px solid gray;
+  outline: none;
+  margin-top: 20px ;
+  font-size: 20px;
+}
+
+
+button{
+ 
+ margin: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  cursor:pointer;
+}
+
