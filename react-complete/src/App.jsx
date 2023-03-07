@@ -2,7 +2,7 @@
 // import "./Component/Header.css";
 // import Top from "./Component/Header";
 // import { Header1, Header2 } from "./Component/Header";
-import Form from "./Component/Form";
+// import Form from "./Component/Form";
 
 // ? creating  component
 // ? array destructing
@@ -20,11 +20,15 @@ import Form from "./Component/Form";
 //     </div>
 //   );
 // }
+// import { Todo } from "./Todo/Todo";
+import Router from "./Router/Router";
 
 function App() {
   return (
     <>
-      <Form />
+      <Router />
+      {/* <Todo /> */}
+      {/* <Form /> */}
       {/* <Top />
       <Header1 />
       <Header2 /> */}

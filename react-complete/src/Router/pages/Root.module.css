@@ -1,0 +1,8 @@
+.content{
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 4px;
+  color: white;
+  max-height: 200px;
+  display: inline-block;
+}

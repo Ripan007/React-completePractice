@@ -1,0 +1,41 @@
+.container{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 400px;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 255, 0.297);
+  border-radius: 4px;
+}
+
+.container > form{
+  display: flex;
+  flex-direction: column;
+  gap: .625rem;
+}
+
+form > input,button{
+  padding: 10px;
+  outline:none;
+  border:none;
+  border-radius: 4px;
+}
+
+form > button{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+form > textarea {
+height: 80px;
+border-radius: 4px ;
+outline: none;
+border:none;
+}
+
+form > input,button,textarea {
+  text-transform: capitalize;
+}

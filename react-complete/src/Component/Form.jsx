@@ -16,7 +16,7 @@ const Form = () => {
 
   useEffect(() => {
     console.log("welcome to my journey to become a awesome react developer");
-  });
+  }, []);
 
   return (
     <>
